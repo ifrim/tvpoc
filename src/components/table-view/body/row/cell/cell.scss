@@ -1,0 +1,27 @@
+@import './types/input/input';
+@import './types/select/select';
+@import './types/textarea/textarea';
+
+.tv-cell {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid var(--border-color);
+  overflow: hidden;
+
+  &:first-child {
+    border-left: 1px solid var(--border-color);
+  }
+
+  &-row-checkbox {
+    display: flex;
+    flex-basis: 30px;
+    flex-grow: 0;
+    padding: 0;
+    justify-content: center;
+  }
+}

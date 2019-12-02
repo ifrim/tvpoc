@@ -1,0 +1,12 @@
+@import './cell/cell';
+
+.tv-row {
+  --border-color: gray;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--border-color);
+
+  &-selected {
+    background-color: pink;
+  }
+}

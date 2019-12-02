@@ -1,0 +1,21 @@
+.tv-pagination {
+  --border-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  height: 30px;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: #eee;
+
+  &-previous,
+  &-next {
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+}
